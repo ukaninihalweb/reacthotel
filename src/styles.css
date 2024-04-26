@@ -1,0 +1,8 @@
+.image-container {
+    transition: transform 1s ease; /* Define the transition property */
+  }
+  
+  .animated {
+    transform: scale(1.1); /* Apply the transformation */
+  }
+  

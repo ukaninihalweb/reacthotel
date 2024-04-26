@@ -1,0 +1,117 @@
+/* header  */
+
+ul{
+    list-style: none;
+}
+
+header .logo h2{
+    background-color: #FEA116;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+header ul{
+    padding-left: 10%;
+}
+
+/* banner  */
+
+.banner{
+    background-image: url(../src/images/banner.png);
+}
+
+.banner .content{
+    height: 500px;
+    display: grid;
+    align-content: center;
+}
+
+.banner .button{
+    background-color: #FEA116;
+}
+
+.banner button{
+    padding: 7px 20px;
+}
+
+.banner h1{
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+}
+
+/* form  */
+
+.form{
+    transform: translatey(-23px);
+}
+
+.form .form-content{
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+.form input{
+    width: 20%;
+    border: 1px solid lightgrey ;
+    padding: 4px;
+}
+
+.form .cta-btn{
+    width: 18%;
+}
+
+.form .cta-btn a{
+    display: flex;
+    /* width: 18%; */
+    text-decoration: none;
+    background-color: #FEA116;
+    padding: 5px 19px;
+    border-radius: 2px;
+}
+
+.form .cta-btn a{
+    text-decoration: none;
+}
+
+/* branch  */
+
+.branch img{
+    width: 364px;
+}
+
+.branch h6{
+    color: #FEA116;
+}
+
+.branch .city-name h1{
+    width: 364px;
+    background-color: #FEA116;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.branch .row{
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* counter  */
+
+.counter{
+    height: 350px;
+    background-image: url(../src/images/counter.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 39px;
+    margin-right: 39px;
+}
+
+.counter .col-3{
+    padding: 15px;
+}
+
+.counter .col-3 .c-content{
+    border: 2px solid white;
+}
